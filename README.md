@@ -1,2 +1,2 @@
-# Pressure-Game
+# Pressure
 We have to pressure

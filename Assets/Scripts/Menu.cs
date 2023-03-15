@@ -8,6 +8,8 @@ public class Menu : MonoBehaviour
     public static bool GameIsPaused = false;
     public GameObject menuUI;
     public GameObject miniMap;
+    public Animator transition;
+    public float transitionTime = 1f;
 
     public void Start()
     {
@@ -39,12 +41,20 @@ public class Menu : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().buildIndex == 0)
         {
-            SceneManager.LoadScene(1);
+            menuUI.SetActive(false);
+            StartCoroutine(LoadLevel(1));
         }
         else
         {
             Resume();
         }
+    }
+
+    IEnumerator LoadLevel(int levelIndex)
+    {
+        transition.SetTrigger("Start");
+        yield return new WaitForSeconds(transitionTime);
+        SceneManager.LoadScene(levelIndex);
     }
 
     public void Resume()

@@ -7035,6 +7035,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 6850040427505242222, guid: b529aa2b32cc74d12986a6687c652541, type: 3}
+      propertyPath: miniMap
+      value: 
+      objectReference: {fileID: 769732352}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b529aa2b32cc74d12986a6687c652541, type: 3}
 --- !u!1 &602927560
@@ -7157,6 +7161,11 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &769732352 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6509758613914957991, guid: b529aa2b32cc74d12986a6687c652541, type: 3}
+  m_PrefabInstance: {fileID: 565423155}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1300263567
 PrefabInstance:
   m_ObjectHideFlags: 0

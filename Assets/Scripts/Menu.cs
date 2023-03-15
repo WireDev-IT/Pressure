@@ -7,6 +7,7 @@ public class Menu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     public GameObject menuUI;
+    public GameObject miniMap;
 
     public void Start()
     {
@@ -49,6 +50,7 @@ public class Menu : MonoBehaviour
     public void Resume()
     {
         menuUI.SetActive(false);
+        miniMap.SetActive(true);
         Time.timeScale = 1f;
         GameIsPaused = false;
     }
@@ -56,6 +58,7 @@ public class Menu : MonoBehaviour
     public void Pause()
     {
         menuUI.SetActive(true);
+        miniMap.SetActive(false);
         Time.timeScale = 0f;
         GameIsPaused = true;
     }

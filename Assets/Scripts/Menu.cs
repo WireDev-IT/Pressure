@@ -41,6 +41,7 @@ public class Menu : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().buildIndex == 0)
         {
+            menuUI.SetActive(false);
             StartCoroutine(LoadLevel(1));
         }
         else

@@ -361,6 +361,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: task_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Title
+      value: 'Aufgabe: THEMA'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Messages.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Messages.Array.data[0]
+      value: In dieser Aufgabe musst du ......
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
 --- !u!1 &338884847
@@ -485,7 +497,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
       propertyPath: dialogue.Title
-      value: "Zur\xFCck zur Aufgaben Auswahl?"
+      value: Haus verlassen
       objectReference: {fileID: 0}
     - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
       propertyPath: dialogue.Messages.Array.size
@@ -493,7 +505,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
       propertyPath: dialogue.Messages.Array.data[0]
-      value: Wollen sie das Haus verlassen?
+      value: Du bist dabei das Haus zuverlassen. Bist du dir sicher?
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
@@ -567,6 +579,18 @@ PrefabInstance:
     - target: {fileID: 1360012081393748157, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
       propertyPath: m_Name
       value: task_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Title
+      value: 'Aufgabe: THEMA'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Messages.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Messages.Array.data[0]
+      value: In dieser Aufgabe musst du ......
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
@@ -4555,6 +4579,92 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f6f9abbf88541e518c373a4138f6da8, type: 3}
+--- !u!1001 &506829650
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1360012081393748154, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360012081393748154, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360012081393748154, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 20.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360012081393748154, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360012081393748154, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360012081393748154, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360012081393748154, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360012081393748154, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360012081393748154, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360012081393748154, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360012081393748154, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360012081393748156, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: m_Size.x
+      value: 7.8447413
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360012081393748156, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: m_Size.y
+      value: 8.582225
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360012081393748156, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.28807855
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360012081393748156, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.91032743
+      objectReference: {fileID: 0}
+    - target: {fileID: 1360012081393748157, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: m_Name
+      value: zauberrentner
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Title
+      value: Zauberer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Messages.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Messages.Array.data[0]
+      value: Mahlzeit! Du siehst mir aber wie ein schlauer Bube aus! Dann zeig mal
+        her was du so drauf hast.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
 --- !u!1 &821143020
 GameObject:
   m_ObjectHideFlags: 0
@@ -9088,6 +9198,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: task_2
       objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Title
+      value: 'Aufgabe: THEMA'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Messages.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Messages.Array.data[0]
+      value: In dieser Aufgabe musst du ......
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
 --- !u!4 &1352375643 stripped
@@ -9165,6 +9287,18 @@ PrefabInstance:
     - target: {fileID: 1360012081393748157, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
       propertyPath: m_Name
       value: task_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Title
+      value: 'Aufgabe: THEMA'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Messages.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Messages.Array.data[0]
+      value: In dieser Aufgabe musst du ......
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
@@ -9700,7 +9834,7 @@ Tilemap:
   m_GameObject: {fileID: 1744537185}
   m_Enabled: 1
   m_Tiles:
-  - first: {x: 12, y: 10, z: 0}
+  - first: {x: -1, y: 10, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 0
@@ -9742,8 +9876,8 @@ Tilemap:
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: 0, y: 0, z: 0}
-  m_Size: {x: 13, y: 17, z: 1}
+  m_Origin: {x: -1, y: 0, z: 0}
+  m_Size: {x: 14, y: 17, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:

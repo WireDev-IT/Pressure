@@ -5,17 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class TriggerInteraction : MonoBehaviour
 {
-    private Collider2D[] objDetected;
+    private Collider2D objDetected;
     public Transform Position;
     public float height;
     public float width;
     public LayerMask InteractionLayer;
-
-    public GameObject menu;
-
-    void Start() {
-        menu = GetComponent<GameObject>();
-    }
 
     void Update()
     {
@@ -26,11 +20,8 @@ public class TriggerInteraction : MonoBehaviour
             InteractionLayer
         );
 
-        foreach (Collider2D colider in objDetected) {
-            Debug.Log(collider.gameObject.name);
-        }
         // Debug.Log(playerDetected);
-        // if (Input.GetKeyDown(KeyCode.E)) { SceneManager.LoadScene("informatics_house_1"); }
+        if (Input.GetKeyDown(KeyCode.E)) { SceneManager.LoadScene(objDetected.gameObject.name); }
     }
 
     void OnDrawGizmosSelected()

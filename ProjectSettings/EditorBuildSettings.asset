@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/informatics_levels.unity
     guid: 35b32386d8d8f4a61bd185e482ef7f7d
   - enabled: 1
-    path: Assets/Scenes/New Scene.unity
+    path: Assets/Scenes/lobby.unity
     guid: 34905c9bce6a241e4b8e53030b94f7dd
   m_configObjects: {}

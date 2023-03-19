@@ -5,49 +5,74 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+    public enum DisplayMenu
+    {
+        None,
+        MainMenu,
+        PauseMenu,
+        OptionsMenu
+    }
+
     public static bool GameIsPaused = false;
     public GameObject menuUI;
+    public GameObject pauseUI;
+    public GameObject optionsUI;
     public GameObject miniMap;
     public Animator transition;
     public float transitionTime = 1f;
 
     public void Start()
     {
-        if (SceneManager.GetActiveScene().buildIndex != 0)
-        {
-            Resume();
-        }
+        Resume();
+        if (SceneManager.GetActiveScene().buildIndex == 0)
+            SetMenu(DisplayMenu.MainMenu);
     }
 
     public void Update()
     {
-        if (SceneManager.GetActiveScene().buildIndex != 0)
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (Input.GetKeyDown(KeyCode.Escape))
+            if (optionsUI.activeSelf)
             {
-                if (GameIsPaused)
+                HideOptions();
+            }
+            else if (SceneManager.GetActiveScene().buildIndex != 0)
+            {
+                switch (GameIsPaused)
                 {
-                    Resume();
-                }
-                else
-                {
-                    Pause();
+                    case true:
+                        Resume();
+                        break;
+                    case false:
+                        Pause();
+                        break;
                 }
             }
         }
     }
 
+    public void SetMenu(DisplayMenu menu)
+    {
+        optionsUI.SetActive(menu == DisplayMenu.OptionsMenu);
+        menuUI.SetActive(menu == DisplayMenu.MainMenu);
+        pauseUI.SetActive(menu == DisplayMenu.PauseMenu);
+        miniMap.SetActive(menu == DisplayMenu.None);
+    }
+
+    public void ShowOptions()
+    {
+        SetMenu(DisplayMenu.OptionsMenu);
+    }
+
+    public void HideOptions()
+    {
+        SetMenu(GameIsPaused ? DisplayMenu.PauseMenu : DisplayMenu.MainMenu);
+    }
+
     public void PlayGame()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 0)
-        {
-            menuUI.SetActive(false);
-            StartCoroutine(LoadLevel(1));
-        }
-        else
-        {
-            Resume();
-        }
+        SetMenu(DisplayMenu.None);
+        StartCoroutine(LoadLevel(1));
     }
 
     IEnumerator LoadLevel(int levelIndex)
@@ -59,18 +84,22 @@ public class Menu : MonoBehaviour
 
     public void Resume()
     {
-        menuUI.SetActive(false);
-        miniMap.SetActive(true);
+        SetMenu(DisplayMenu.None);
         Time.timeScale = 1f;
         GameIsPaused = false;
     }
 
     public void Pause()
     {
-        menuUI.SetActive(true);
-        miniMap.SetActive(false);
+        SetMenu(DisplayMenu.PauseMenu);
         Time.timeScale = 0f;
         GameIsPaused = true;
+    }
+
+    public void BackToLobby()
+    {
+        Resume();
+        StartCoroutine(LoadLevel(0));
     }
 
     public void Quit()

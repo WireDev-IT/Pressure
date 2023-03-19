@@ -12,12 +12,7 @@ public class DialogueManager : MonoBehaviour
     public Animator animator;
     public TMP_Text title;
     public TMP_Text message;
-    public Queue<string> sentences;
-
-    void Start()
-    {
-        sentences = new Queue<string>();
-    }
+    public Queue<string> sentences = new();
 
     void Update()
     {

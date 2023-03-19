@@ -14693,7 +14693,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
       propertyPath: dialogue.Messages.Array.data[0]
-      value: Willst du das Deutsch Gebiet betreten?
+      value: Hier ist das Gbiet Deutsch. Willst du es betreten?
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
@@ -14898,7 +14898,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
       propertyPath: dialogue.Messages.Array.data[0]
-      value: Willst du das Informatiksysteme Gebiet betreten?
+      value: Hier ist das Gebiet Informatiksysteme. Willst du es betreten?
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}

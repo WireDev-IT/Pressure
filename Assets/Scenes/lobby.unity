@@ -10399,7 +10399,7 @@ GameObject:
   - component: {fileID: 575007189}
   - component: {fileID: 575007188}
   m_Layer: 0
-  m_Name: exit_border_info (2)
+  m_Name: exit_border_math
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14589,6 +14589,23 @@ PrefabInstance:
       propertyPath: m_Name
       value: math_level
       objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Title
+      value: Fach Mathematik
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.ButtonText
+      value: Betreten
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Messages.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Messages.Array.data[0]
+      value: "Das Gebiet Mathematik ist zurzeit nicht verf\xFCgbar. Aufgrund der
+        suche nach der Wurzel allem \xDCbels."
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
 --- !u!1001 &1822929680
@@ -14661,6 +14678,22 @@ PrefabInstance:
     - target: {fileID: 1360012081393748157, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
       propertyPath: m_Name
       value: german_level
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Title
+      value: Fach Deutsch
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.ButtonText
+      value: Betreten
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Messages.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Messages.Array.data[0]
+      value: Willst du das Deutsch Gebiet betreten?
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
@@ -14853,7 +14886,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
       propertyPath: dialogue.Title
-      value: Thema Informatik
+      value: Fach Informatiksysteme
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.ButtonText
+      value: Betreten
       objectReference: {fileID: 0}
     - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
       propertyPath: dialogue.Messages.Array.size
@@ -14861,7 +14898,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
       propertyPath: dialogue.Messages.Array.data[0]
-      value: Wollen sie das Informatik Gebiet betreten?
+      value: Willst du das Informatiksysteme Gebiet betreten?
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
@@ -15018,7 +15055,7 @@ GameObject:
   - component: {fileID: 2088057409}
   - component: {fileID: 2088057408}
   m_Layer: 0
-  m_Name: exit_border_info (1)
+  m_Name: exit_border_german
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

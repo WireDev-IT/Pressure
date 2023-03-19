@@ -21,4 +21,9 @@ public class DialogueTrigger : MonoBehaviour
         yield return new WaitForSeconds(Delay);
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
 	}
+
+    public void CloseDialogue()
+    {
+        FindObjectOfType<DialogueManager>().EndDialog();
+    }
 }

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6648103830859170206}
   - component: {fileID: 6648103830859170204}
   - component: {fileID: 6648103830859170205}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 6648103831085160800}
   - component: {fileID: 6648103831085160806}
   - component: {fileID: 6648103831085160807}
-  m_Layer: 4
+  m_Layer: 6
   m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -166,7 +166,7 @@ GameObject:
   - component: {fileID: 6648103831425792851}
   - component: {fileID: 6648103831425792849}
   - component: {fileID: 6648103831425792850}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -190,8 +190,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -80, y: 0}
-  m_SizeDelta: {x: 120, y: 40}
+  m_AnchoredPosition: {x: -102, y: 0}
+  m_SizeDelta: {x: 170, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6648103831425792849
 CanvasRenderer:
@@ -255,7 +255,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -304,7 +304,7 @@ GameObject:
   - component: {fileID: 6648103831987247215}
   - component: {fileID: 6648103831987247208}
   - component: {fileID: 6648103831987247203}
-  m_Layer: 4
+  m_Layer: 6
   m_Name: Dialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -409,6 +409,7 @@ MonoBehaviour:
   animator: {fileID: 6648103831987247203}
   title: {fileID: 6648103832302961826}
   message: {fileID: 6648103832762296772}
+  buttonText: {fileID: 6648103831425792850}
 --- !u!95 &6648103831987247203
 Animator:
   serializedVersion: 5
@@ -442,7 +443,7 @@ GameObject:
   - component: {fileID: 6648103832235109543}
   - component: {fileID: 6648103832235109536}
   - component: {fileID: 6648103832235109537}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: NextBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -469,7 +470,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
   m_AnchoredPosition: {x: -100, y: 35}
-  m_SizeDelta: {x: 250, y: 40}
+  m_SizeDelta: {x: 300, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6648103832235109543
 CanvasRenderer:
@@ -576,7 +577,7 @@ GameObject:
   - component: {fileID: 6648103832302961827}
   - component: {fileID: 6648103832302961825}
   - component: {fileID: 6648103832302961826}
-  m_Layer: 4
+  m_Layer: 6
   m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -711,7 +712,7 @@ GameObject:
   - component: {fileID: 6648103832762296773}
   - component: {fileID: 6648103832762296795}
   - component: {fileID: 6648103832762296772}
-  m_Layer: 4
+  m_Layer: 6
   m_Name: Message
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -845,7 +846,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8645592823136860060}
   - component: {fileID: 2189607137135563911}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: DialogueStarter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -880,7 +881,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: 
-    sentences: []
+    ButtonText: Weiter
+    Title: 
+    Messages: []
   AutoStart: 0
   Delay: 0

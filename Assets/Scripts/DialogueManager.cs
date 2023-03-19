@@ -12,6 +12,7 @@ public class DialogueManager : MonoBehaviour
     public Animator animator;
     public TMP_Text title;
     public TMP_Text message;
+    public TMP_Text buttonText;
     public Queue<string> sentences = new();
 
     void Update()
@@ -25,11 +26,12 @@ public class DialogueManager : MonoBehaviour
     public void StartDialogue(Dialogue dialogue)
     {
         animator.SetBool("IsOpen", true);
-        title.text = dialogue.name;
+        title.text = dialogue.Title;
+        buttonText.text = dialogue.ButtonText;
 
         sentences.Clear();
 
-        foreach (string sentence in dialogue.sentences)
+        foreach (string sentence in dialogue.Messages)
         {
             sentences.Enqueue(sentence);
         }
@@ -59,7 +61,7 @@ public class DialogueManager : MonoBehaviour
     }
 
 
-    private void EndDialog()
+    public void EndDialog()
     {
         animator.SetBool("IsOpen", false);
     }

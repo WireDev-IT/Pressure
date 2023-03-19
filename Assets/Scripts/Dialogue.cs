@@ -4,8 +4,10 @@ using UnityEngine;
 [Serializable]
 public class Dialogue
 {
-	public string name;
+	public string ButtonText = "Weiter";
 
-	[TextArea(3, 10)]
-	public string[] sentences;
+	public string Title = string.Empty;
+
+	[TextArea(3, 4)]
+	public string[] Messages = Array.Empty<string>();
 }

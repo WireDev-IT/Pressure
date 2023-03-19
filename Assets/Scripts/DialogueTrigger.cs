@@ -1,12 +1,29 @@
 ﻿using UnityEngine;
 using System.Collections;
+using static System.TimeZoneInfo;
 
 public class DialogueTrigger : MonoBehaviour
 {
 	public Dialogue dialogue;
+    public bool AutoStart = false;
+    public float Delay = 0;
 
-	public void TriggerDialogue()
+    private void Start()
+    {
+        if (AutoStart)
+        {
+            StartCoroutine(TriggerDialogue());
+        }
+    }
+
+    public IEnumerator TriggerDialogue()
 	{
-		FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+        yield return new WaitForSeconds(Delay);
+        FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
 	}
+
+    public void CloseDialogue()
+    {
+        FindObjectOfType<DialogueManager>().EndDialog();
+    }
 }

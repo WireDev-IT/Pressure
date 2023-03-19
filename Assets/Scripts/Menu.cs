@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -75,11 +76,22 @@ public class Menu : MonoBehaviour
         StartCoroutine(LoadLevel(1));
     }
 
-    IEnumerator LoadLevel(int levelIndex)
+    public IEnumerator LoadLevel(int levelIndex)
+    {
+        yield return StartTransition();
+        SceneManager.LoadScene(levelIndex);
+    }
+
+    public IEnumerator LoadLevel(string level)
+    {
+        yield return StartTransition();
+        SceneManager.LoadScene(level);
+    }
+
+    public IEnumerator StartTransition()
     {
         transition.SetTrigger("Start");
         yield return new WaitForSeconds(transitionTime);
-        SceneManager.LoadScene(levelIndex);
     }
 
     public void Resume()

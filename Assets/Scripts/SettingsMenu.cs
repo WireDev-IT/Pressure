@@ -54,6 +54,7 @@ public class SettingsMenu : MonoBehaviour
         Resolution r = resolutions[resolutionIndex];
         PlayerPrefs.SetInt("width", r.width);
         PlayerPrefs.SetInt("height", r.height);
+        PlayerPrefs.Save();
         Screen.SetResolution(r.width, r.height, Screen.fullScreen);
     }
 
@@ -61,23 +62,34 @@ public class SettingsMenu : MonoBehaviour
     {
         audioMixer.SetFloat("SoundFxVolume", volume);
         PlayerPrefs.SetFloat("fx", volume);
+        PlayerPrefs.Save();
     }
 
     public void SetMusicVolume(float volume)
     {
         audioMixer.SetFloat("MusicVolume", volume);
         PlayerPrefs.SetFloat("music", volume);
+        PlayerPrefs.Save();
     }
 
     public void SetQuality(int index)
     {
         QualitySettings.SetQualityLevel(index);
         PlayerPrefs.SetInt("quality", index);
+        PlayerPrefs.Save();
     }
 
     public void SetFullscreen(bool isFullscreen)
     {
         Screen.fullScreen = isFullscreen;
         PlayerPrefs.SetString("fullscreen", isFullscreen.ToString());
+        PlayerPrefs.Save();
+    }
+
+    public void RestoreSettings()
+    {
+        PlayerPrefs.DeleteAll();
+        PlayerPrefs.Save();
+        Start();
     }
 }

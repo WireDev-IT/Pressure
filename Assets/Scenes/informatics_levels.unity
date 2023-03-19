@@ -13125,7 +13125,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
       propertyPath: dialogue.Title
-      value: Bereich 1
+      value: Themengebiet Datenbanken
       objectReference: {fileID: 0}
     - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
       propertyPath: dialogue.ButtonText
@@ -13137,7 +13137,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
       propertyPath: dialogue.Messages.Array.data[0]
-      value: test
+      value: Willst du das Haus betreten?
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
@@ -13225,11 +13225,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2189607137135563911, guid: 07dd29efe35214cdd84d9e6afa839389, type: 3}
       propertyPath: dialogue.Title
-      value: Informatik
+      value: Fach Informatiksysteme
       objectReference: {fileID: 0}
     - target: {fileID: 2189607137135563911, guid: 07dd29efe35214cdd84d9e6afa839389, type: 3}
       propertyPath: dialogue.Messages.Array.size
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2189607137135563911, guid: 07dd29efe35214cdd84d9e6afa839389, type: 3}
       propertyPath: dialogue.sentences.Array.size
@@ -13237,7 +13237,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2189607137135563911, guid: 07dd29efe35214cdd84d9e6afa839389, type: 3}
       propertyPath: dialogue.Messages.Array.data[0]
-      value: test
+      value: Willkommen im Informatiksysteme Gebiet.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2189607137135563911, guid: 07dd29efe35214cdd84d9e6afa839389, type: 3}
+      propertyPath: dialogue.Messages.Array.data[1]
+      value: "In den einzelnen H\xE4usern findet man die Aufgaben."
+      objectReference: {fileID: 0}
+    - target: {fileID: 2189607137135563911, guid: 07dd29efe35214cdd84d9e6afa839389, type: 3}
+      propertyPath: dialogue.Messages.Array.data[2]
+      value: "Um zur Lobby zur\xFCck zukehren laufe den Weg nach Unten entlang."
       objectReference: {fileID: 0}
     - target: {fileID: 2189607137135563911, guid: 07dd29efe35214cdd84d9e6afa839389, type: 3}
       propertyPath: dialogue.sentences.Array.data[0]
@@ -17022,7 +17030,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
       propertyPath: dialogue.Messages.Array.data[0]
-      value: "Du bist gerade dabei, diese Ebene zu verlassen und zur Lobby zur\xFCckzukehren.
+      value: "Du bist gerade dabei, dieses Gebiet zu verlassen und zur Lobby zur\xFCckzukehren.
         Bist du dir sicher?"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -17113,7 +17121,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
       propertyPath: dialogue.Title
-      value: Bereich 2
+      value: Themengebiet Netzwerke
       objectReference: {fileID: 0}
     - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
       propertyPath: dialogue.ButtonText
@@ -17125,7 +17133,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
       propertyPath: dialogue.Messages.Array.data[0]
-      value: test
+      value: Willst du das Haus betreten?
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
@@ -17359,7 +17367,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
       propertyPath: dialogue.Title
-      value: Bereich 3
+      value: Themengebiet Projektmanagement
       objectReference: {fileID: 0}
     - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
       propertyPath: dialogue.ButtonText
@@ -17371,7 +17379,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
       propertyPath: dialogue.Messages.Array.data[0]
-      value: test
+      value: Willst du das Haus betreten?
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
@@ -17404,11 +17412,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4696029771171500505, guid: 2e2ab0d704aaed70d8e08a820c384fd7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.19
+      value: -0.13
       objectReference: {fileID: 0}
     - target: {fileID: 4696029771171500505, guid: 2e2ab0d704aaed70d8e08a820c384fd7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -18.05
+      value: -22.85
       objectReference: {fileID: 0}
     - target: {fileID: 4696029771171500505, guid: 2e2ab0d704aaed70d8e08a820c384fd7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17569,11 +17577,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2352347143016942867, guid: 56580e808ccd13c66b2ccfaa7dca25d3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.19
+      value: -0.13
       objectReference: {fileID: 0}
     - target: {fileID: 2352347143016942867, guid: 56580e808ccd13c66b2ccfaa7dca25d3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -17.184631
+      value: -21.984632
       objectReference: {fileID: 0}
     - target: {fileID: 2352347143016942867, guid: 56580e808ccd13c66b2ccfaa7dca25d3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17630,11 +17638,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7309535302277205489, guid: 4250918cb4da92c7d9c327158fc021b4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.19
+      value: -0.1317643
       objectReference: {fileID: 0}
     - target: {fileID: 7309535302277205489, guid: 4250918cb4da92c7d9c327158fc021b4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -17.184631
+      value: -19.903086
       objectReference: {fileID: 0}
     - target: {fileID: 7309535302277205489, guid: 4250918cb4da92c7d9c327158fc021b4, type: 3}
       propertyPath: m_LocalPosition.z

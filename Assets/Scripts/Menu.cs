@@ -24,6 +24,7 @@ public class Menu : MonoBehaviour
 
     public void Start()
     {
+        this.gameObject.SetActive(true);
         Resume();
         if (SceneManager.GetActiveScene().buildIndex == 0)
             SetMenu(DisplayMenu.MainMenu);

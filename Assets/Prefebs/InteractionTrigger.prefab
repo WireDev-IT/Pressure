@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1360012081393748154}
   - component: {fileID: 1360012081393748155}
   - component: {fileID: 1360012081393748156}
-  - component: {fileID: 1976376779513296507}
+  - component: {fileID: 2898599777242497646}
   m_Layer: 5
   m_Name: InteractionTrigger
   m_TagString: Untagged
@@ -112,7 +112,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1976376779513296507
+--- !u!114 &2898599777242497646
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,12 +121,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1360012081393748157}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70cbe9aa12b9b43e49420e1d7fd58a2b, type: 3}
+  m_Script: {fileID: 11500000, guid: 5518bced9d83c450185ff778b6dd3a17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    ButtonText: Weiter
-    Title: 
-    Messages: []
-  AutoStart: 0
-  Delay: 0
+  manager: {fileID: 0}

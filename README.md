@@ -10,3 +10,4 @@ Dieses Projekt ist ein Lernspiel, welches als Einführung in Unity genutzt wurde
 
 - Dialoge können Sie mit der Leertaste überspringen
 - Mit ESC können Sie das Spiel pausieren
+- Sollten Probleme beim öffnen auftreten, gehen Sie nach [dieser Anleitung](https://support.apple.com/de-de/HT202491) vor

@@ -10568,7 +10568,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 628002398408237693, guid: 68c37921efdf30d479e1f477ac8b1c8c, type: 3}
       propertyPath: m_Name
-      value: germanien_levels
+      value: german_levels
       objectReference: {fileID: 0}
     - target: {fileID: 4102824626566257739, guid: 68c37921efdf30d479e1f477ac8b1c8c, type: 3}
       propertyPath: m_RootOrder

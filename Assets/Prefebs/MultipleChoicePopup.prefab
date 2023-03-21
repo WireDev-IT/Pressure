@@ -164,12 +164,12 @@ GameObject:
   - component: {fileID: 7618831624620247669}
   - component: {fileID: 7618831624620247658}
   m_Layer: 5
-  m_Name: MultipleChoice
+  m_Name: MultipleChoicePopup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7618831624620247659
 RectTransform:
   m_ObjectHideFlags: 0
@@ -970,17 +970,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   challenges:
-  - Question: Frage 1
+  - Question: 
     Answers:
-    - 1
-    - 2
-    - 3
-    CorrectAnswer: 2
-  - Question: Frage 2
-    Answers:
-    - a
-    - b
-    - c
+    - 
+    - 
+    - 
     CorrectAnswer: 0
   answers:
   - {fileID: 7618831626524184594}

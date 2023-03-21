@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class MultipleChoiceManager : MonoBehaviour
 {
-    public List<MultipleChoiceChallenge> challenges = new() { null };
+    public List<MultipleChoiceChallenge> challenges = new() { new() };
     public GameObject[] answers;
     public int currentQuestion;
     public TMP_Text QuestionTxt;

@@ -538,6 +538,10 @@ PrefabInstance:
       propertyPath: dialogue.Messages.Array.data[0]
       value: In dieser Aufgabe musst du ......
       objectReference: {fileID: 0}
+    - target: {fileID: 2898599777242497646, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: manager
+      value: 
+      objectReference: {fileID: 342553647}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
 --- !u!1 &338884847
@@ -589,6 +593,134 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &342553646
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247660, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_Name
+      value: MultipleChoicePopup (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: challenges.Array.data[0].Question
+      value: Was ist ein Datenbankmanagementsystem (DBMS)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: challenges.Array.data[0].CorrectAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: challenges.Array.data[0].Answers.Array.data[0]
+      value: Ein Programm zum Erstellen von Datenbanken
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: challenges.Array.data[0].Answers.Array.data[1]
+      value: Ein Programm zur Verwaltung von Datenbanken
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: challenges.Array.data[0].Answers.Array.data[2]
+      value: EIn Programm zur Abfrage von Datenbanken
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+--- !u!114 &342553647 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+  m_PrefabInstance: {fileID: 342553646}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 901811c884a3b4600bf87418fe632340, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &399431781
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4891,6 +5023,135 @@ PrefabInstance:
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
   m_PrefabInstance: {fileID: 849996540}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 901811c884a3b4600bf87418fe632340, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &776025413
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624620247660, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_Name
+      value: MultipleChoicePopup
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: challenges.Array.data[0].Question
+      value: "Welche Art von Beziehungen k\xF6nnen in einer Datenbank modelliert
+        werden?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: challenges.Array.data[0].CorrectAnswer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: challenges.Array.data[0].Answers.Array.data[0]
+      value: Nur 1:1 Beziehungen
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: challenges.Array.data[0].Answers.Array.data[1]
+      value: Nur 1:n Beziehungen
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: challenges.Array.data[0].Answers.Array.data[2]
+      value: 1:1; 1:n und n:m Beziehungen
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+--- !u!114 &776025414 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+  m_PrefabInstance: {fileID: 776025413}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -9313,6 +9574,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: MultipleChoice (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: challenges.Array.data[0].Question
+      value: Die viele Normalformen gibt es?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: challenges.Array.data[0].CorrectAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: challenges.Array.data[0].Answers.Array.data[0]
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: challenges.Array.data[0].Answers.Array.data[1]
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: challenges.Array.data[0].Answers.Array.data[2]
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
 --- !u!1001 &1086823436
@@ -9648,6 +9929,10 @@ PrefabInstance:
       propertyPath: dialogue.Messages.Array.data[0]
       value: In dieser Aufgabe musst du ......
       objectReference: {fileID: 0}
+    - target: {fileID: 2898599777242497646, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: manager
+      value: 
+      objectReference: {fileID: 776025414}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
 --- !u!1 &1617369034
@@ -9988,11 +10273,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7309535302277205489, guid: 4250918cb4da92c7d9c327158fc021b4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.869049
+      value: 12.123011
       objectReference: {fileID: 0}
     - target: {fileID: 7309535302277205489, guid: 4250918cb4da92c7d9c327158fc021b4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.033455
+      value: 4.0334563
       objectReference: {fileID: 0}
     - target: {fileID: 7309535302277205489, guid: 4250918cb4da92c7d9c327158fc021b4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11084,6 +11369,11 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1880641791 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7618831624458148886, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+  m_PrefabInstance: {fileID: 7618831625303246053}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1923574952 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8478369878652290347, guid: f4c1d326e655a46f58c16df21e92d750, type: 3}
@@ -11302,6 +11592,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7618831624458148886, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_Name
+      value: Answer3
+      objectReference: {fileID: 0}
     - target: {fileID: 7618831624620247659, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -11389,6 +11683,66 @@ PrefabInstance:
     - target: {fileID: 7618831624620247660, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
       propertyPath: m_Name
       value: MultipleChoice
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831624669577803, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_Name
+      value: Answer2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831625186801564, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_text
+      value: Frage
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: answers.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: answers.Array.data[3]
+      value: 
+      objectReference: {fileID: 1880641791}
+    - target: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: challenges.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: challenges.Array.data[0].Question
+      value: Was ist ein Datenbankschema?
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: challenges.Array.data[0].CorrectAnswer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: challenges.Array.data[1].Answers.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: challenges.Array.data[2].Answers.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: challenges.Array.data[3].Answers.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: challenges.Array.data[0].Answers.Array.data[0]
+      value: "Eine Ansammlung von Datens\xE4tzen"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: challenges.Array.data[0].Answers.Array.data[1]
+      value: Eine logische Struktur der Datenbank
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831625827175942, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: challenges.Array.data[0].Answers.Array.data[2]
+      value: Ein Teil der Datenbank-Software
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831626524184594, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: m_Name
+      value: Answer1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7618831626524184601, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}
+      propertyPath: IsCorrect
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31442b63503ea4da8a1511c59dbd7864, type: 3}

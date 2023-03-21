@@ -74,7 +74,7 @@ public class Menu : MonoBehaviour
     public void PlayGame()
     {
         SetMenu(DisplayMenu.None);
-        StartCoroutine(LoadLevel(1));
+        StartCoroutine(LoadLevel(3));
     }
 
     public IEnumerator LoadLevel(int levelIndex)

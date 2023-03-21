@@ -526,6 +526,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: task_4
       objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Title
+      value: 'Aufgabe: THEMA'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Messages.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Messages.Array.data[0]
+      value: In dieser Aufgabe musst du ......
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
 --- !u!1 &338884847
@@ -659,6 +671,22 @@ PrefabInstance:
     - target: {fileID: 1360012081393748157, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
       propertyPath: m_Name
       value: informatics_levels
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Title
+      value: "Zur\xFCck zur Aufgabenauswahl?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.ButtonText
+      value: Verlassen
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Messages.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Messages.Array.data[0]
+      value: Du bist dabei das Haus zuverlassen. Bist du dir sicher?
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
@@ -9608,6 +9636,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: task_3
       objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Title
+      value: 'Aufgabe: THEMA'
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Messages.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976376779513296507, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
+      propertyPath: dialogue.Messages.Array.data[0]
+      value: In dieser Aufgabe musst du ......
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff01944fc25e4c429abb32ba8ee8c15b, type: 3}
 --- !u!1 &1617369034
@@ -10153,7 +10193,7 @@ Tilemap:
   m_GameObject: {fileID: 1744537185}
   m_Enabled: 1
   m_Tiles:
-  - first: {x: 12, y: 10, z: 0}
+  - first: {x: -1, y: 10, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 0
@@ -10195,8 +10235,8 @@ Tilemap:
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Origin: {x: 0, y: 0, z: 0}
-  m_Size: {x: 13, y: 17, z: 1}
+  m_Origin: {x: -1, y: 0, z: 0}
+  m_Size: {x: 14, y: 17, z: 1}
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:

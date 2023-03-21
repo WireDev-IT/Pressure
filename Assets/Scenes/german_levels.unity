@@ -13180,7 +13180,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4599153154496619336, guid: 68c37921efdf30d479e1f477ac8b1c8c, type: 3}
       propertyPath: dialogue.Title
-      value: Haus ...................
+      value: Haus 3
       objectReference: {fileID: 0}
     - target: {fileID: 4599153154496619336, guid: 68c37921efdf30d479e1f477ac8b1c8c, type: 3}
       propertyPath: dialogue.ButtonText
@@ -13383,7 +13383,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4599153154496619336, guid: 68c37921efdf30d479e1f477ac8b1c8c, type: 3}
       propertyPath: dialogue.Title
-      value: Haus ..........
+      value: Haus 1
       objectReference: {fileID: 0}
     - target: {fileID: 4599153154496619336, guid: 68c37921efdf30d479e1f477ac8b1c8c, type: 3}
       propertyPath: dialogue.ButtonText
@@ -17090,7 +17090,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4599153154496619336, guid: 68c37921efdf30d479e1f477ac8b1c8c, type: 3}
       propertyPath: dialogue.Title
-      value: Haus .............
+      value: Haus 2
       objectReference: {fileID: 0}
     - target: {fileID: 4599153154496619336, guid: 68c37921efdf30d479e1f477ac8b1c8c, type: 3}
       propertyPath: dialogue.ButtonText
@@ -17512,11 +17512,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7309535302277205489, guid: 4250918cb4da92c7d9c327158fc021b4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.1000266
+      value: -2.1000285
       objectReference: {fileID: 0}
     - target: {fileID: 7309535302277205489, guid: 4250918cb4da92c7d9c327158fc021b4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -19.901476
+      value: -19.901453
       objectReference: {fileID: 0}
     - target: {fileID: 7309535302277205489, guid: 4250918cb4da92c7d9c327158fc021b4, type: 3}
       propertyPath: m_LocalPosition.z

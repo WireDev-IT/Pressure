@@ -1,5 +1,5 @@
 # Pressure
-Dieses Projekt ist ein Lernspiel, welches als Einführung in Unity genutzt wurde. Es ist ein 2D Top-Down Spiel im 16 Bit Stil. Der Spieler kann sich frei bewegen und Fragen beantworten. Ein genaues Ziel gibt es nicht, der Spieler löst die Fragen ohne darstellung von Erfolg.
+Dieses Projekt ist ein Lernspiel, welches als Einführung in Unity genutzt wurde. Es ist ein 2D Top-Down Spiel im 16 Bit Stil. Der Spieler kann sich frei bewegen und Fragen beantworten. Ein genaues Ziel gibt es nicht, der Spieler löst die Fragen ohne Darstellung von Erfolg.
 
 ## Installieren (macOS)
 1. Laden Sie sich aus den [Releases](https://github.com/WireDev-IT/Pressure/releases) die neuste Version von Pressure herunter (Pressure.app.zip)
